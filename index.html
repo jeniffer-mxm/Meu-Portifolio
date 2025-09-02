@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeniffer Maximo - Desenvolvedora Web</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar Fixa -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <div class="nav-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <div class="nav-info">
+                    <h1>Jeniffer Maximo</h1>
+                    <span>Desenvolvedora Web</span>
+                </div>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#sobre" class="nav-link">Sobre</a>
+                <a href="#tecnologias" class="nav-link">Tecnologias</a>
+                <a href="#projetos" class="nav-link">Projetos</a>
+                <a href="#contato" class="nav-link">Contato</a>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Seção Hero -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="particles"></div>
+            <div class="grid-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <i class="fas fa-sparkles"></i>
+                <span>Portfolio 2025</span>
+            </div>
+            <h1 class="hero-title">
+                <span class="hero-name">Jeniffer Maximo</span>
+                <span class="hero-role" id="typingText">Desenvolvedora Web</span>
+                <span class="cursor">|</span>
+            </h1>
+            <p class="hero-description">
+                Criando experiências digitais <span class="highlight">inovadoras</span> e 
+                soluções <span class="highlight">futurísticas</span> que transformam ideias em realidade.
+            </p>
+            <div class="hero-buttons">
+                <button class="btn-primary" onclick="scrollToSection('sobre')">
+                    Conheça meu trabalho
+                </button>
+                <button class="btn-secondary" onclick="window.open('https://github.com/jeniffer-mxm', '_blank')">
+                    Ver GitHub
+                </button>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Seção Sobre Mim -->
+    <section class="about" id="sobre">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-user"></i>
+                    <span>Sobre mim</span>
+                </div>
+                <h2 class="section-title">
+                    Conheça um pouco sobre 
+                    <span class="text-gradient">minha jornada</span>
+                </h2>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-container">
+                        <img src="img/foto-perfil.png" alt="Jeniffer Maximo">
+                    </div>
+                    <div class="about-info">
+                        <h3>Jeniffer Maximo</h3>
+                        <p>Desenvolvedora Web</p>
+
+                        <div class="location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Uberaba-MG, Brasil</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <div class="about-description">
+                        <p>
+                            Sou desenvolvedora apaixonada por tecnologia e inovação. 
+                            Adoro criar soluções digitais que unem design moderno com 
+                            funcionalidade prática, sempre pensando em como entregar 
+                            algo que realmente faça sentido para quem vai usar.
+
+                            Como fundadora da Maxiweb, atuo no desenvolvimento de sites 
+                            personalizados, gestão de projetos e no contato direto com clientes, 
+                            o que me da uma boa bagagem para entender as necessidades de cada 
+                            projeto e transformar ideias em resultados.
+
+                            Estou sempre em movimento, buscando aprender mais, encarar novos
+                            desafios e crescer junto com as equipes e projetos dos quais faço parte.
+                            
+                        </p>
+                    </div>
+                    <div class="about-cards">
+                        <div class="about-card">
+                            <div class="card-icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <h4>Paixão</h4>
+                            <p>Transformar ideias complexas em soluções elegantes e funcionais que fazem a diferença.</p>
+                        </div>
+                        <div class="about-card">
+                            <div class="card-icon">
+                                <i class="fas fa-bullseye"></i>
+                            </div>
+                            <h4>Missão</h4>
+                            <p>Criar experiências digitais que conectam pessoas e facilitam o dia a dia através da tecnologia.</p>
+                        </div>
+                    </div>
+                    <div class="skills-tags">
+                        <span class="skill-tag">Criatividade</span>
+                        <span class="skill-tag">Inovação</span>
+                        <span class="skill-tag">Dedicação</span>
+                        <span class="skill-tag">Resultado</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Tecnologias -->
+    <section class="technologies" id="tecnologias">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-bolt"></i>
+                    <span>Stack Tecnológico</span>
+                </div>
+                <h2 class="section-title">
+                    Tecnologias que
+                    <span class="text-gradient">domino</span>
+                </h2>
+                <p class="section-description">
+                    Ferramentas modernas para criar soluções excepcionais
+                </p>
+            </div>
+            <div class="tech-grid" id="techGrid">
+                <!-- Tecnologias serão populadas pelo JavaScript -->
+            </div>
+            <div class="tech-info">
+                <div class="tech-card">
+                    <h3>Sempre aprendendo</h3>
+                    <p>
+                        A tecnologia evolui constantemente, e eu evoluo junto. Sempre explorando novas ferramentas, 
+                        frameworks e metodologias para entregar as melhores soluções possíveis.
+                    </p>
+                    <div class="loading-dots">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Projetos -->
+    <section class="projects" id="projetos">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-rocket"></i>
+                    <span>Meus Projetos</span>
+                </div>
+                <h2 class="section-title">
+                    Trabalhos que
+                    <span class="text-gradient">desenvolvi</span>
+                </h2>
+                <p class="section-description">
+                    Projetos que demonstram minhas habilidades e paixão pela tecnologia
+                </p>
+            </div>
+            <div class="projects-grid" id="projectsGrid">                
+                <!-- Projetos serão populados pelo JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato/Redes Sociais -->
+    <section class="contact" id="contato">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-globe"></i>
+                    <span>Redes Sociais</span>
+                </div>
+                <h2 class="section-title">
+                    Vamos nos
+                    <span class="text-gradient">conectar</span>
+                </h2>
+                <p class="section-description">
+                    Entre em contato comigo através das minhas redes sociais
+                </p>
+            </div>
+            <div class="social-links" id="socialLinks">
+                <!-- Links sociais serão populados pelo JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container">
+            <p>© <span id="year"></span>Todos os direitos reservados.</p>
+            <p>Desenvolvido por Jeniffer Maximo | Dev.</p>
+        </div>
+    </footer>
+
+    <!-- Script JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
